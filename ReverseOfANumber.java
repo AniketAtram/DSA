@@ -4,7 +4,7 @@ public class ReverseOfANumber {
 
     public static void main(String[] args) {
 
-        int number = 1;
+        int number = 12457823;
         int reverse = 0;
 
         while (number!=0) {
