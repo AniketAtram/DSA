@@ -22,5 +22,4 @@ public class Palindrome {
 
         return reverse==num;
     }
-
 }
