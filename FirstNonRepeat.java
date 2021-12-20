@@ -3,15 +3,15 @@ package DSA;
 public class FirstNonRepeat {
 
     public static void main(String[] args) {
-        int size = 5;
-        int[] array = new int[]{1,2,3,4,1};
+        int[] array = new int[]{1,2,1,2};
 
-        System.out.println(firstNonRepeatingElement(size, array));
+        System.out.println(firstNonRepeatingElement(array));
 
     }
 
-    public static int firstNonRepeatingElement(int n, int[] arr){
+    public static int firstNonRepeatingElement(int[] arr){
         int i,j;
+        int n = arr.length;
         for (i = 0;i<n;i++){
             for (j=0;j<n;j++){
                 if (i!=j && arr[i] == arr[j]){
