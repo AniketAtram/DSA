@@ -4,7 +4,7 @@ public class ReverseOfANumber {
 
     public static void main(String[] args) {
 
-        int number = 12457823;
+        int number = 001;
         System.out.println("Number -> "+number);
         int reverse = 0;
 
