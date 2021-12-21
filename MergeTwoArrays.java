@@ -2,8 +2,8 @@ package DSA;
 
 public class MergeTwoArrays {
     public static void main(String[] args) {
-        int[] first = new int[]{1,2,3};
-        int[] second = new int[]{6,7,8,9};
+        int[] first = new int[]{};
+        int[] second = new int[]{1,2,3};
         int[] merged = merge(first, second);
         // print the merged array
         for (Integer x : merged){
