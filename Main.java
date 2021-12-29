@@ -2,10 +2,11 @@ package DSA;
 
 public class Main {
     public static void main(String[] args) {
-        int len = 5;
+        SingleLinkedList ll = new SingleLinkedList();
+        ll.addFront(2);
+        ll.addFront(1);
+        ll.addFront(0);
+        ll.print();
 
-        for (int i=5-1;i<10;i++){
-            System.out.println(i);
-        }
     }
-}
+    }
